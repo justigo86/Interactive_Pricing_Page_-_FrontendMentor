@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="title">Simple, traffic-based pricing</h1>
+    <p class="subtitle">Sign-up for our 30-day trial. <span class="inline">No credit card required.</span></p>
+  </header> 
+
+  <div class="mid">
+    <section class="middle">
+      <div class="updated">
+        <div class="views"><span class="number">100K</span> Pageviews</div>
+        <div class="price"><span class="cost">$<span class="dollar">16</span>.00</span> /month</div>
+      </div>
+  
+      <div class="slider">
+        <!-- value is the starting point for the slider -->
+        <input type="range" name="" class="bar" id="slider" min="0" max="4" step="1" value="2">
+        <!-- <img src="./images/icon-slider.svg" alt=""> -->
+      </div>
+    
+      <div class="selector">
+        <div class="month">Monthly Billing</div>
+        <div class="slide">
+            <label for="switch" class="toggle">
+              <input type="checkbox" class="checkbox" id="switch">
+              <span class="handle"></span>
+            </label>
+        </div>
+        <div class="year">Yearly Billing</div> 
+        <span class="discount">25%</span>
+      </div>
+    </section>
+
+    <footer>
+      <div class="buttons">
+        <div class="features">
+          <div class="check">
+            <img src="./images/icon-check.svg" alt="">
+            <span class="unlimited">Unlimited websites</span>
+          </div>
+          <div class="check">
+            <img src="./images/icon-check.svg" alt="">
+            <span class="ownership">100% data ownership</span>
+          </div>
+          <div class="check">
+            <img src="./images/icon-check.svg" alt="">
+            <span class="email">Email reports</span>
+          </div>
+        </div>
+        <div class="btn">
+          <button class="start">Start my trial</button>
+        </div>
+      </div>
+    </footer>
+  </di>
+  <script src="./script.js"></script>
+</body>
+</html>
